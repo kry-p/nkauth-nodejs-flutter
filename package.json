@@ -1,0 +1,16 @@
+{
+  "name": "nkauth-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kry-p",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "esm": "^3.2.25",
+    "firebase-admin": "^9.8.0"
+  },
+  "scripts": {
+    "start": "node -r esm src"
+  }
+}
