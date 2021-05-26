@@ -10,7 +10,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 // Authentication modules
-import createFirebaseToken from "./modules/kakao_auth";
+import "./modules/kakao_auth";
 
 // Initialize Firebase App Admin
 admin.initializeApp({

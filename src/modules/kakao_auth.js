@@ -13,7 +13,7 @@ function requestMe(kakaoAccessToken) {
   return request({
     method: "GET",
     headers: { Authorization: "Bearer " + kakaoAccessToken },
-    url: requestMeUrl,
+    url: kakaoRequestMeUrl,
   });
 }
 
